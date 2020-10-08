@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    Overflow-x:  hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* main home page css */
+
+/* header section */
+/* menu section css */
+.header{
+    width: 100%;
+    background: url("../img/bg1.png") top center no-repeat;
+    background-size: cover;
+}
+.header .menu{
+    width: 100%;
+    padding: 20px 0px 88px;
+}
+.header .menu .bg-light{
+    background: transparent !important;
+}
+.header .menu .navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 26px;
+    margin-right: 25px;
+}
+.header .menu .navbar-light .navbar-nav .active>.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 26px;
+}
+.header .menu .navbar-light .navbar-nav .nav-link:hover{
+    color: #2870db;
+}
+.header .menu .btn-info{
+    padding: 6px 31px;
+    font-size: 16px;
+    color: rgb(20, 33, 94);
+    font-weight: 500;
+    line-height: 26px;
+    border-radius: 13px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+}
+.header .menu .btn-info:focus, .header .menu .btn-info:hover{
+    color: #fff;
+    background-color:  #2870db;
+    border: 1px solid #fff;
+    box-shadow: none;
+}
+/* banner section css */
+.header .banner{
+    width: 100%;
+    padding: 0px 0px 240px;
+}
+.header .banner .text{
+    text-align: left;
+    margin-left: -54px;
+}
+.header .banner .text h2{
+    font-size: 40px;
+    color: rgb(28, 32, 86);
+    font-weight: 700;
+    line-height: 50px;
+}
+.header .banner .text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(45, 32, 88, 0.651);
+    line-height: 34px;
+    margin: 25px 0px 46px;
+}
+.header .banner .text .btn-info{
+
+}
+.header .banner .text .btn-info{
+    padding: 12px 48px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 26px;
+    border-radius: 30px;
+    background-color: #2870db;
+    border: 1px solid transparent;
+}
+.header .banner .text .btn-info:focus, .header .banner .text .btn-info:hover{
+    color: #2870db;
+    background-color:  transparent;
+    border: 1px solid #2870db;
+    box-shadow: none;
+}
+/* envition section css */
+.envition{
+    width: 100%;
+    padding: 50px 0px 230px;
+    background: url("../img/bg2.png") top center no-repeat;
+    background-size: cover;
+}
+.envition .text{
+    text-align: center;
+    
+}
+.envition .text h2{
+    font-size: 36px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    line-height: 46px;
+}
+.envition .envition-inner{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 27px 43px 0px rgba(32, 94, 171, 0.1);
+    position: relative;
+}
+.envition .envition-inner h4{
+    padding-top: 15px;
+    font-size: 24px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    line-height: 34px;
+    margin: 60px 0px 29px 35px;
+}
+.envition .envition-inner p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(45, 32, 88, 0.651);
+    line-height: 24px;
+    margin: 0px 0px 29px 35px;
+    padding-bottom: 34px;
+}
+.envition .btn-info{
+    padding: 12px 48px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 26px;
+    border-radius: 30px;
+    background-color: #2870db;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 145px;
+    right: -300px;
+}
+.envition .btn-info:focus, .envition .btn-info:hover{
+    color: #2870db;
+    background-color:  transparent;
+    border: 1px solid #2870db;
+    box-shadow: none;
+}
+.envition .text-1{
+    padding: 50px 0px;
+    text-align: center;
+}
+.we-ve-inner{
+    text-align: center;
+}
+.we-ve-inner p{
+    font-size: 16px;
+    color: rgb(38, 50, 56);
+    line-height: 26px;
+}
+.we-ve-inner h4{
+    padding-top: 15px;
+    font-size: 24px;
+    color: #1a56a3;
+    font-weight: 700;
+    line-height: 34px;
+}
+/* proticting section css */
+.proticting{
+    width: 100%;
+    padding: 50px 0px;
+    background: url("../img/bg3.png") top center no-repeat;
+    background-size: cover;
+}
+.proticting .text{
+    text-align: center;
+}
+.proticting .text h2{
+    font-size: 36px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    line-height: 46px;
+}
