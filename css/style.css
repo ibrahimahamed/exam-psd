@@ -108,7 +108,7 @@ a, a:hover{
 /* envition section css */
 .envition{
     width: 100%;
-    padding: 50px 0px 230px;
+    padding: 50px 0px 150px;
     background: url("../img/bg2.png") top center no-repeat;
     background-size: cover;
 }
@@ -123,28 +123,81 @@ a, a:hover{
     line-height: 46px;
 }
 .envition .envition-inner{
+    padding: 30px;
+    margin-top: 160px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 27px 43px 0px rgba(32, 94, 171, 0.1);
     position: relative;
 }
 .envition .envition-inner h4{
-    padding-top: 15px;
+    /* padding-top: 15px; */
     font-size: 24px;
     color: rgb(38, 50, 56);
     font-weight: 700;
     line-height: 34px;
-    margin: 60px 0px 29px 35px;
+    /* margin: 60px 0px 29px 35px; */
 }
 .envition .envition-inner p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     color: rgba(45, 32, 88, 0.651);
     line-height: 24px;
-    margin: 0px 0px 29px 35px;
-    padding-bottom: 34px;
+    /* margin: 0px 0px 29px 35px;
+    padding-bottom: 34px; */
 }
-.envition .btn-info{
+.envition .envition-inner-2{
+    padding: 30px;
+    margin-top: 131px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 27px 43px 0px rgba(32, 94, 171, 0.1);
+    position: relative;
+}
+.envition .envition-inner-2 h4{
+    /* padding-top: 15px; */
+    font-size: 24px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    line-height: 34px;
+    /* margin: 60px 0px 29px 35px; */
+}
+.envition .envition-inner-2 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(45, 32, 88, 0.651);
+    line-height: 24px;
+    /* margin: 0px 0px 29px 35px;
+    padding-bottom: 34px; */
+}
+.envition .envition-inner-3{
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 27px 43px 0px rgba(32, 94, 171, 0.1);
+    position: relative;
+}
+.envition .envition-inner-3 h4{
+    /* padding-top: 15px; */
+    font-size: 24px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    line-height: 34px;
+    /* margin: 60px 0px 29px 35px; */
+}
+.envition .envition-inner-3 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(45, 32, 88, 0.651);
+    line-height: 24px;
+    /* margin: 0px 0px 29px 35px;
+    padding-bottom: 34px; */
+}
+.envition .bt{
+    padding-top: 10px;
+}
+.envition .bt .btn-info{
     padding: 12px 48px;
     font-size: 16px;
     color: #fff;
@@ -157,15 +210,21 @@ a, a:hover{
     top: 145px;
     right: -300px;
 }
-.envition .btn-info:focus, .envition .btn-info:hover{
+.envition .bt .btn-info:focus, .envition .bt .btn-info:hover{
     color: #2870db;
     background-color:  transparent;
     border: 1px solid #2870db;
     box-shadow: none;
 }
 .envition .text-1{
-    padding: 50px 0px;
+    padding: 100px 0px;
     text-align: center;
+}
+.envition .text-1 h2{
+    font-size: 36px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    line-height: 46px;
 }
 .we-ve-inner{
     text-align: center;
@@ -175,8 +234,7 @@ a, a:hover{
     color: rgb(38, 50, 56);
     line-height: 26px;
 }
-.we-ve-inner h4{
-    padding-top: 15px;
+.we-ve-inner .counter{
     font-size: 24px;
     color: #1a56a3;
     font-weight: 700;
@@ -185,11 +243,12 @@ a, a:hover{
 /* proticting section css */
 .proticting{
     width: 100%;
-    padding: 50px 0px;
+    padding: 0px 0px 150px;
     background: url("../img/bg3.png") top center no-repeat;
     background-size: cover;
 }
 .proticting .text{
+    padding: 0px 0px 50px;
     text-align: center;
 }
 .proticting .text h2{
@@ -197,4 +256,144 @@ a, a:hover{
     color: rgb(38, 50, 56);
     font-weight: 700;
     line-height: 46px;
+}
+.proticting .proticting-inner{
+    text-align: left;
+}
+.proticting .proticting-inner img{
+    width: 260px;
+    height: 160px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+}
+.proticting .proticting-inner .proticting-text{
+    width: 260px;
+    height: 160px;
+    padding: 30px 30px 375px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 27px 43px 0px rgba(32, 94, 171, 0.1);
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+.proticting .proticting-inner .proticting-text h4{
+    padding-top: 15px;
+    font-size: 20px;
+    color: rgb(38, 50, 56);
+    font-weight: 600;
+    line-height: 30px;
+}
+.proticting .proticting-inner .proticting-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(45, 32, 88, 0.651);
+    line-height: 22px;
+    margin: 20px 0px;
+}
+.proticting .proticting-inner .proticting-text .btn-link {
+    margin-left: -12px;
+    font-weight: 500;
+    color: #647281;
+    text-decoration: none;
+}
+/* footer section css */
+.footer{
+    width: 100%;
+    padding: 50px 0px 50px;
+    background: url("../img/fbg.png") top center no-repeat;
+    background-size: cover;
+}
+.footer .form-inner{
+    padding: 0px 78px 50px;
+    border-radius: 20px;
+    background: rgb(53, 122, 203);
+    box-shadow: 0px 42px 35px 0px rgba(31, 110, 227, 0.15);
+    text-align: center;
+}
+.footer .form-inner h4{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 30px;
+}
+.footer .form-inner .main-form{
+    width: 45%;
+    margin-left: 28%;
+    margin-top: 9%;
+}
+.footer .form-inner .main-form .form-control{
+        padding: 23px 16px;
+        margin-top: 20px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+}
+.footer .form-inner .main-form .btn-info{
+    padding: 12px 48px;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 26px;
+    border-radius: 30px;
+    background-color: #00aeff;
+    border: 1px solid transparent;
+}
+.footer .form-inner .main-form .btn-info:focus, .footer .form-inner .main-form .btn-info:hover{
+    color: #00aeff;
+    background-color:  #fff;
+    border: 1px solid #00aeff;
+    box-shadow: none;
+}
+.footer .widget-footer{
+    width: 100%;
+    margin-left: 100px;
+}
+.footer .widget-footer .widget-footer-inner{
+    text-align: left;
+    padding-top: 55px;
+}
+.footer .widget-footer .widget-footer-inner h4{
+    padding-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+.footer .widget-footer .widget-footer-inner p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 52px;
+}
+.footer .icon-footer{
+    width: 100%;
+    padding-top: 20px;
+}
+.footer .icon-footer ul{
+    display: block;
+}
+.footer .icon-footer ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
+.footer .icon-footer ul li a{
+    font-size: 20px;
+    color: #2376cf;
+    text-align: center;
+}
+.footer .icon-footer ul li a .fa{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 100%;
+    font-size: 16px;
+    background: #fff;
+    transition: 1s;
+}
+.footer .icon-footer ul li a .fa:hover{
+    background: rgb(53, 122, 203);
+    color: #fff;
 }
