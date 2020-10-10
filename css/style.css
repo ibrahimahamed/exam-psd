@@ -29,24 +29,26 @@ a, a:hover{
 }
 .header .menu .bg-light{
     background: transparent !important;
+    overflow: hidden;
 }
 .header .menu .navbar-light .navbar-nav .nav-link {
     font-weight: 500;
     font-size: 16px;
-    font-family: "Open Sans";
     color: rgb(255, 255, 255);
     line-height: 26px;
     margin-right: 25px;
+    border-bottom: 2px solid transparent;
 }
 .header .menu .navbar-light .navbar-nav .active>.nav-link{
     font-weight: 500;
     font-size: 16px;
-    font-family: "Open Sans";
     color: rgb(255, 255, 255);
     line-height: 26px;
+    border-bottom: 2px solid transparent;
 }
 .header .menu .navbar-light .navbar-nav .nav-link:hover{
-    color: #2870db;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0px;
 }
 .header .menu .btn-info{
     padding: 6px 31px;
@@ -87,9 +89,6 @@ a, a:hover{
     margin: 25px 0px 46px;
 }
 .header .banner .text .btn-info{
-
-}
-.header .banner .text .btn-info{
     padding: 12px 48px;
     font-size: 16px;
     color: #fff;
@@ -124,7 +123,8 @@ a, a:hover{
 }
 .envition .envition-inner{
     padding: 30px;
-    margin-top: 160px;
+    margin-top: 169px;
+    margin-left: 18px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 27px 43px 0px rgba(32, 94, 171, 0.1);
@@ -148,7 +148,8 @@ a, a:hover{
 }
 .envition .envition-inner-2{
     padding: 30px;
-    margin-top: 131px;
+    margin-top: 90px;
+    margin-left: 18px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 27px 43px 0px rgba(32, 94, 171, 0.1);
@@ -172,7 +173,8 @@ a, a:hover{
 }
 .envition .envition-inner-3{
     padding: 30px;
-    margin-top: 100px;
+    margin-top: 97px;
+    margin-left: 18px;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 27px 43px 0px rgba(32, 94, 171, 0.1);
@@ -259,6 +261,7 @@ a, a:hover{
 }
 .proticting .proticting-inner{
     text-align: left;
+    margin-left: 50px;
 }
 .proticting .proticting-inner img{
     width: 260px;
@@ -295,6 +298,7 @@ a, a:hover{
     color: #647281;
     text-decoration: none;
 }
+
 /* footer section css */
 .footer{
     width: 100%;
@@ -302,15 +306,23 @@ a, a:hover{
     background: url("../img/fbg.png") top center no-repeat;
     background-size: cover;
 }
+.footer .widget-footer{
+    width: 100%;
+    margin-left: 100px;
+}
 .footer .form-inner{
-    padding: 0px 78px 50px;
+    padding: 0px 78px 130px;
     border-radius: 20px;
-    background: rgb(53, 122, 203);
-    box-shadow: 0px 42px 35px 0px rgba(31, 110, 227, 0.15);
+    background: url("../img/frbg.png")
+    top center no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     text-align: center;
 }
 .footer .form-inner h4{
-    padding-top: 20px;
+    padding-top: 80px;
     font-size: 20px;
     color: #fff;
     font-weight: 600;
@@ -343,10 +355,6 @@ a, a:hover{
     background-color:  #fff;
     border: 1px solid #00aeff;
     box-shadow: none;
-}
-.footer .widget-footer{
-    width: 100%;
-    margin-left: 100px;
 }
 .footer .widget-footer .widget-footer-inner{
     text-align: left;
